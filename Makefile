@@ -1,7 +1,7 @@
-run:
+up:
 	docker-compose up --build -d
 
-run-%:
+up-%:
 	docker-compose up $* --build -d
 
 down:
