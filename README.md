@@ -10,9 +10,10 @@ git clone git@github.com:LastDarkNes/dev-stage-infrastructure.git
 ```
 
 ## Usage
-Add env to the service you need. And configure it.
+Add env and dir for docker data to the service you need. And configure it.
 ```commandline
 touch <your service name>/.env
+mkdir <your service name>/.docker_data
 ```
 
 Run services you need using:
